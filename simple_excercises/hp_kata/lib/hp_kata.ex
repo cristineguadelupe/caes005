@@ -39,7 +39,7 @@ defmodule HpKata do
       |> Enum.into(%{})
 
     %{cart | total: new_total, books: books}
-    |> discount(@price)
+    |> discount(price)
   end
 
 end
